@@ -6,11 +6,11 @@ import './App.css';
 const App = () => {
   // TODO: Define initial product data
    const products = [
-    { id: 1, name: 'Laptop', price: 999, inStock: true },
-    { id: 2, name: 'Headphones', price: 199, inStock: true },
-    { id: 3, name: 'Mouse', price: 49, inStock: false },
-    { id: 4, name: 'Keyboard', price: 79, inStock: true },
-    { id: 5, name: 'Monitor', price: 299, inStock: false },
+    { id: 1, name: 'Jeans', price: 50, inStock: true },
+    { id: 2, name: 'Shorts', price: 40, inStock: true },
+    { id: 3, name: 'Cap', price: 15, inStock: false },
+    { id: 4, name: 'Jacket', price: 79, inStock: true },
+    { id: 5, name: 'Book', price: 15, inStock: false },
   ];
   // TODO: Implement state to manage filtering
       const [showInStockOnly, setShowInStockOnly] = useState(false);
